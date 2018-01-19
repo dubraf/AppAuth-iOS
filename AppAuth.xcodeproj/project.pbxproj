@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		039697461FA8258D003D1FB2 /* OIDURLSessionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 039697451FA8258D003D1FB2 /* OIDURLSessionProvider.m */; };
 		0396974D1FA827AD003D1FB2 /* OIDURLSessionProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0396974C1FA827AD003D1FB2 /* OIDURLSessionProviderTests.m */; };
+		1A7D392420122DD8007DD599 /* OIDLogoutRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CF37C06B1F1FC21A00662E41 /* OIDLogoutRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A7D392520122DDE007DD599 /* OIDLogoutResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6431F21F228A980075B6B5 /* OIDLogoutResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A7D392720122DFB007DD599 /* OIDLogoutResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6431F31F228A980075B6B5 /* OIDLogoutResponse.m */; };
+		1A7D392820122DFC007DD599 /* OIDLogoutResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6431F31F228A980075B6B5 /* OIDLogoutResponse.m */; };
+		1A7D392920122DFE007DD599 /* OIDLogoutResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6431F31F228A980075B6B5 /* OIDLogoutResponse.m */; };
+		1A7D392A20122E08007DD599 /* OIDLogoutResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6431F31F228A980075B6B5 /* OIDLogoutResponse.m */; };
+		1A7D392B20122E38007DD599 /* OIDLogoutRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = CF37C06B1F1FC21A00662E41 /* OIDLogoutRequest.h */; };
+		1A7D392C20122E38007DD599 /* OIDLogoutResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = CF6431F21F228A980075B6B5 /* OIDLogoutResponse.h */; };
+		1A7D392D20122E38007DD599 /* OIDLogoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF37C06C1F1FC21A00662E41 /* OIDLogoutRequest.m */; };
+		1A7D392E20122E8E007DD599 /* OIDLogoutResponse.m in Headers */ = {isa = PBXBuildFile; fileRef = CF6431F31F228A980075B6B5 /* OIDLogoutResponse.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A7D392F20122E8E007DD599 /* OIDLogoutRequest.m in Headers */ = {isa = PBXBuildFile; fileRef = CF37C06C1F1FC21A00662E41 /* OIDLogoutRequest.m */; settings = {ATTRIBUTES = (Public, ); }; };
 		340DAE571D5821A100EC285B /* OIDAuthorizationService+Mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 340DAE261D581FE700EC285B /* OIDAuthorizationService+Mac.m */; };
 		340DAE581D5821A100EC285B /* OIDAuthorizationUICoordinatorMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 340DAE281D581FE700EC285B /* OIDAuthorizationUICoordinatorMac.m */; };
 		340DAE591D5821A100EC285B /* OIDAuthState+Mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 340DAE2A1D581FE700EC285B /* OIDAuthState+Mac.m */; };
@@ -377,7 +388,6 @@
 		60140F801DE4344200DA0DC3 /* OIDRegistrationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 60140F7F1DE4344200DA0DC3 /* OIDRegistrationResponse.m */; };
 		60140F831DE43BAF00DA0DC3 /* OIDRegistrationRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60140F821DE43BAF00DA0DC3 /* OIDRegistrationRequestTests.m */; };
 		60140F861DE43CC700DA0DC3 /* OIDRegistrationResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60140F851DE43CC700DA0DC3 /* OIDRegistrationResponseTests.m */; };
-		CF37C06D1F1FC21A00662E41 /* OIDLogoutRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CF37C06B1F1FC21A00662E41 /* OIDLogoutRequest.h */; };
 		CF37C06E1F1FC21A00662E41 /* OIDLogoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF37C06C1F1FC21A00662E41 /* OIDLogoutRequest.m */; };
 		CF37C06F1F1FC21A00662E41 /* OIDLogoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF37C06C1F1FC21A00662E41 /* OIDLogoutRequest.m */; };
 		CF37C0701F1FC21A00662E41 /* OIDLogoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF37C06C1F1FC21A00662E41 /* OIDLogoutRequest.m */; };
@@ -888,7 +898,6 @@
 			files = (
 				340DAE741D58223A00EC285B /* AppAuth.h in Headers */,
 				34FEA6AE1DB6E083005C9212 /* OIDLoopbackHTTPServer.h in Headers */,
-				CF37C06D1F1FC21A00662E41 /* OIDLogoutRequest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -911,6 +920,10 @@
 				343AAAEF1E83499000F9D36E /* OIDRegistrationResponse.h in Headers */,
 				343AAAF51E83499000F9D36E /* OIDServiceConfiguration.h in Headers */,
 				343AAAE91E83499000F9D36E /* OIDAuthStateErrorDelegate.h in Headers */,
+				1A7D392520122DDE007DD599 /* OIDLogoutResponse.h in Headers */,
+				1A7D392420122DD8007DD599 /* OIDLogoutRequest.h in Headers */,
+				1A7D392E20122E8E007DD599 /* OIDLogoutResponse.m in Headers */,
+				1A7D392F20122E8E007DD599 /* OIDLogoutRequest.m in Headers */,
 				343AAAE51E83499000F9D36E /* OIDAuthorizationService.h in Headers */,
 				343AAAF01E83499000F9D36E /* OIDRegistrationRequest.h in Headers */,
 				343AAAE61E83499000F9D36E /* OIDAuthorizationUICoordinator.h in Headers */,
@@ -1451,6 +1464,7 @@
 				341310CA1E6F944B00D5DEE5 /* OIDScopeUtilities.m in Sources */,
 				340DAE5C1D5821AB00EC285B /* OIDAuthorizationService.m in Sources */,
 				CF37C06F1F1FC21A00662E41 /* OIDLogoutRequest.m in Sources */,
+				1A7D392720122DFB007DD599 /* OIDLogoutResponse.m in Sources */,
 				341310CD1E6F944B00D5DEE5 /* OIDTokenRequest.m in Sources */,
 				341310C91E6F944B00D5DEE5 /* OIDScopes.m in Sources */,
 				341310CE1E6F944B00D5DEE5 /* OIDTokenResponse.m in Sources */,
@@ -1582,6 +1596,7 @@
 				341310D31E6F944D00D5DEE5 /* OIDError.m in Sources */,
 				341310DE1E6F944D00D5DEE5 /* OIDTokenRequest.m in Sources */,
 				341310DF1E6F944D00D5DEE5 /* OIDTokenResponse.m in Sources */,
+				1A7D392820122DFC007DD599 /* OIDLogoutResponse.m in Sources */,
 				341310DC1E6F944D00D5DEE5 /* OIDServiceConfiguration.m in Sources */,
 				341310BF1E6F943C00D5DEE5 /* OIDClientMetadataParameters.m in Sources */,
 				341310E01E6F944D00D5DEE5 /* OIDTokenUtilities.m in Sources */,
@@ -1598,7 +1613,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7D392B20122E38007DD599 /* OIDLogoutRequest.h in Sources */,
+				1A7D392C20122E38007DD599 /* OIDLogoutResponse.h in Sources */,
+				1A7D392D20122E38007DD599 /* OIDLogoutRequest.m in Sources */,
 				343AAA881E83478900F9D36E /* OIDFieldMapping.m in Sources */,
+				1A7D392A20122E08007DD599 /* OIDLogoutResponse.m in Sources */,
 				343AAA841E83478900F9D36E /* OIDAuthState.m in Sources */,
 				343AAA701E83467D00F9D36E /* OIDAuthState+IOS.m in Sources */,
 				343AAA921E83478900F9D36E /* OIDTokenResponse.m in Sources */,
@@ -1797,6 +1816,7 @@
 				347424041E7F4BA000D3E6D6 /* OIDError.m in Sources */,
 				3474240F1E7F4BA000D3E6D6 /* OIDTokenRequest.m in Sources */,
 				347424101E7F4BA000D3E6D6 /* OIDTokenResponse.m in Sources */,
+				1A7D392920122DFE007DD599 /* OIDLogoutResponse.m in Sources */,
 				3474240D1E7F4BA000D3E6D6 /* OIDServiceConfiguration.m in Sources */,
 				347424031E7F4BA000D3E6D6 /* OIDClientMetadataParameters.m in Sources */,
 				347424111E7F4BA000D3E6D6 /* OIDTokenUtilities.m in Sources */,
